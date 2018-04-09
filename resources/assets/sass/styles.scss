@@ -1,0 +1,89 @@
+/* Custom Section */
+
+.section.section-light-grey {
+  background-color: #EFF4F7
+}
+
+.section.section-feature-grey {
+  background-color: #fbfbfb
+}
+
+.section.section-header-grey {
+  background-color: #F5F9FC
+}
+
+.section.section-feature-grey-accent {
+  background-color: #efefef
+}
+
+.section.section-primary {
+  background-color: #26C281
+}
+
+.section.section-secondary {
+  background-color: #16a085
+}
+
+.section.section-red{
+  background-color: #F64747
+}
+
+.section.section-blue{
+  background-color: #3498db
+}
+
+.section.section-bluedark{
+  background-color: #34495e
+}
+
+.section.section-white{
+  background-color: #fff;
+}
+
+.section.has-border-bottom {
+  border-bottom: 1px solid #ededed
+}
+
+.section.has-border-top {
+  border-top: 1px solid #ededed
+}
+
+.section.is-relative {
+  position: relative
+}
+
+.section.is-cover {
+  background-size: cover !important
+}
+
+.section.no-margin {
+  margin: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important
+}
+
+.section.section-half {
+  height: 75vh !important
+}
+
+.section.is-skewed-sm {
+  transform: skew(0deg, -3deg) translate(0, -45px);
+}
+
+.section .container {
+  z-index: 1
+}
+
+.section .container.is-reverse-skewed-sm {
+  transform: skew(0deg, 3deg) translate(0, 45px)
+}
+
+
+.section .container.slanted-container {
+  margin-top: -100px
+}
+
+/* Custom Content */
+#promotion {
+  padding-bottom: 150px;
+}

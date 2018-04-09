@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Yukbimbel') }}</title>
+    <title>Belajar Online USM PKN STAN Kekinian | Yukbimbel.com</title>
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
     <!-- Styles -->
@@ -40,7 +40,7 @@
             <div class="navbar-item">
               <div class="field is-grouped">
                 <p class="control">
-                  <a class="button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://localhost:4000" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=http://localhost:4000&amp;via=jgthms">
+                  <a class="button" href="#">
                     <span class="icon">
                       <i class="mdi mdi-account mdi-24px"></i>
                     </span>
@@ -50,7 +50,7 @@
                   </a>
                 </p>
                 <p class="control">
-                  <a class="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.6.2/bulma-0.6.2.zip">
+                  <a class="button is-primary" href="#">
                     <span class="icon">
                       <i class="mdi mdi-account-plus mdi-24px"></i>
                     </span>
