@@ -17753,6 +17753,12 @@ label.panel-block:hover {
   margin-top: -100px;
 }
 
+@media screen and (min-width: 1024px) {
+  .section.is-first {
+    padding: 1rem 1.5rem 9rem;
+  }
+}
+
 /* End Section Custom*/
 
 /* Custom Content */

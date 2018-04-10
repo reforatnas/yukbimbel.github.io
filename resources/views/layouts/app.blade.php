@@ -31,7 +31,63 @@
         <div id="navMenu" class="navbar-menu">
           <div class="navbar-start">
             <a href="#" class="navbar-item">Tentang Kami</a>
-            <a href="#" class="navbar-item">Produk Kami</a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <div class="navbar-link">
+                Produk Kami
+              </div>
+              <div id="moreDropdown" class="navbar-dropdown ">
+                <a class="navbar-item " href="{{route('yukbelajar')}}">
+                  <div class="media">
+                    <div class="media-left">
+                      <span class="icon is-large has-text-success">
+                        <i class="fa fa-rocket fa-2x"></i>
+                      </span>
+                    </div>
+                    <div class="media-content">
+                      <p>
+                        <strong>Yukbelajar</strong>
+                        <br>
+                        <small>#BelajarJadiLuarBiasa</small>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item " href="#">
+                  <div class="media">
+                    <div class="media-left">
+                      <span class="icon is-large has-text-primary">
+                        <i class="fa fa-certificate fa-2x"></i>
+                      </span>
+                    </div>
+                    <div class="media-content">
+                      <p>
+                        <strong>Yukbahassoal</strong>
+                        <br>
+                        <small>#BelajarJadiPraktis</small>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item " href="#">
+                  <div class="media">
+                    <div class="media-left">
+                      <span class="icon is-large has-text-link">
+                        <i class="fa fa-book fa-2x"></i>
+                      </span>
+                    </div>
+                    <div class="media-content">
+                      <p>
+                        <strong>Yuktryout</strong>
+                        <br>
+                        <small>#SiapMasukPKNSTAN</small>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
             <a href="#" class="navbar-item">Blog</a>
             <a href="#" class="navbar-item">Bantuan</a>
           </div>
