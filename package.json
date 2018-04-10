@@ -21,6 +21,7 @@
     "dependencies": {
         "@mdi/font": "^2.2.43",
         "buefy": "^0.6.5",
-        "bulma": "^0.6.2"
+        "bulma": "^0.6.2",
+        "font-awesome": "^4.7.0"
     }
 }

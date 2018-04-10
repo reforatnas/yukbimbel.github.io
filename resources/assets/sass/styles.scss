@@ -83,7 +83,117 @@
   margin-top: -100px
 }
 
+/* End Section Custom*/
+
 /* Custom Content */
 #promotion {
   padding-bottom: 150px;
+}
+
+#subscribe {
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+/*End Custom End*/
+
+/*Video Responsive */
+
+.video-container {
+position: relative;
+padding-bottom: 30%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 25%;
+width: 50%;
+height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .video-container iframe,
+  .video-container object,
+  .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  }
+
+  .video-container {
+  padding-bottom: 53%;
+  }
+}
+
+/* End Video Responsive */
+
+/* Box Pricelist */
+
+.box.pricelist {
+  border: 5px solid #26C281;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.box.pricelist .package-list {
+  list-style: none !important;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.box.pricelist .package-list li {
+  display: block;
+  padding-left: 5em;
+}
+
+.box.pricelist .package-list li:before {
+  content: "\f00c"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.5em; /* same as padding-left set on li */
+  color: #26C281;
+}
+
+@media screen and (max-width: 428px) {
+  .box.pricelist .package-list li {
+    padding-left: 1.5em;
+  }
+}
+
+@media screen and (min-width: 428px) and (max-width: 768px) {
+  .box.pricelist .package-list li {
+    padding-left: 12em;
+  }
+}
+
+.box.pricelist span {
+  display: block;
+}
+
+.box.pricelist .package-name {
+  padding-top: 20px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.box.pricelist .package-price {
+  font-size: 32px;
+  font-weight: bold;
+  color: #F64747;
+}
+
+.box.pricelist .package-duration {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
 }

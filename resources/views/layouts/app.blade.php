@@ -42,7 +42,7 @@
                 <p class="control">
                   <a class="button" href="#">
                     <span class="icon">
-                      <i class="mdi mdi-account mdi-24px"></i>
+                      <i class="fa fa-user"></i>
                     </span>
                     <span>
                       Masuk
@@ -52,7 +52,7 @@
                 <p class="control">
                   <a class="button is-primary" href="#">
                     <span class="icon">
-                      <i class="mdi mdi-account-plus mdi-24px"></i>
+                      <i class="fa fa-user-plus"></i>
                     </span>
                     <span>Berlangganan</span>
                   </a>
@@ -64,5 +64,32 @@
       </nav>
     </div>
     @yield('content')
+
+    <footer class="footer">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-4">
+            <h1 class="title">Yukbimbel.</h1>
+            <h2 class="subtitle is-size-6 m-t-20">Yukbimbel.com adalah solusi belajar online untuk para pelajar di Indonesia,
+              khususnya dalam persiapan USM PKN STAN. Raih impianmu untuk kuliah dan belajar di PKN STAN.
+            </h2>
+          </div>
+          <div class="column is-4">
+            <h1 class="title is-size-4">Tentang Yukbimbel</h1>
+            <ul style="list-style:none;" class="is-size-5">
+              <li><a href="#">Tentang Kami</a></li>
+              <li><a href="#">Produk Kami</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Kontak</a></li>
+            </ul>
+          </div>
+          <div class="column">
+            <h1 class="title is-size-4">Ikuti Kami</h1>
+            <a href="#"><i class="fa fa-facebook-square fa-3x has-text-black"></i></a>
+            <a href="#"><i class="fa fa-twitter-square fa-3x m-l-20 has-text-black"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>
