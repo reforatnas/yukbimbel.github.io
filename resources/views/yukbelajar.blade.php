@@ -69,23 +69,19 @@
   </div>
 </section>
 
-<section class="section is-skewed-sm section-primary p-b-100">
+<section class="section is-skewed-sm section-red p-b-100">
   <div class="container is-reverse-skewed-sm">
     <div class="columns">
       <div class="column is-6">
 
       </div>
       <div class="column is-6">
-        <h1 class="title is-3 has-text-weight-bold has-text-white">Yukbahassoal.</h1>
-        <hr style="border:3px solid #fff; width:100px;">
+        <h1 class="title is-3 has-text-weight-bold has-text-white">2. Soal Prediksi dan Pembahasan</h1>
+        <hr style="border:2px solid #fff; width:100px;">
         <h2 class="subtitle is-5 has-text-white">
-          Belajar Soal-Soal Ujian Masuk PKN STAN dari Laptop Maupun Smartphone Kamu!
-          Ngerjain soal-soal Ujian Masuk PKN STAN nggak perlu bingung lagi.
-          Kamu bisa belajar soal-soal Ujian Masuk PKN STAN kapanpun
-          dan dimanapun. Kamu juga bisa melihat pembahasan soalnya
-          secara lengkap! <b>#BelajarJadiPraktis</b>
+          Pertajam pemahamanmu lewat lebih dari ribuan soal prediksi dan pembahasan.
+          Jawaban langsung keluar beserta pembahasannya.
         </h2>
-        <a href="#" class="button is-primary is-medium is-link is-rounded">Coba Sekarang</a>
       </div>
     </div>
   </div>
@@ -95,15 +91,12 @@
   <div class="container is-reverse-skewed-sm">
     <div class="columns">
       <div class="column is-6">
-        <h1 class="title is-3 has-text-weight-bold">Yuktryout.</h1>
-        <hr style="border:3px solid #0a0a0a; width:100px;">
+        <h1 class="title is-3 has-text-weight-bold">3. Unduh Modul dan Cara Cepat.</h1>
+        <hr style="border:2px solid #0a0a0a; width:100px;">
         <h2 class="subtitle is-5">
-          Uji persiapan kamu dalam menghadapi tes tertulis Ujian Masuk PKN STAN
-          dengan mengikuti tryout berbasis online. Kamu juga bisa mendapatkan
-          pembahasan soalnya serta analisis kemampuanmu dalam mengerjakan
-          soal-soal Ujian Masuk PKN STAN. <b>#SiapMasukPKNSTAN</b>
+          Setelah menonton video pembelajaran dan mengerjakan soal prediksi, kamu dapat mengunduh
+          modul rangkuman materi dan modul cara cepat, yang dapat kamu gunakan untuk belajar kapan saja dan dimana saja.
         </h2>
-        <a href="#" class="button is-warning is-medium is-link is-rounded">Coba Sekarang</a>
       </div>
       <div class="column is-6">
 

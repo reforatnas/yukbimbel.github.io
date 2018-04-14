@@ -3,13 +3,14 @@
 @section('content')
 
 <!-- Hero / Header -->
-<section class="hero is-medium is-primary is-bold">
+<section class="hero is-medium is-light is-bold">
   <div class="hero-body">
     <div class="container">
       <div class="columns">
 
-        <div class="column is-6 m-t-30">
-          <h1 class="title">
+        <div class="column is-6">
+            <img src="{{asset('img/logo.svg')}}" width="300" height="200">
+          <h1 class="title m-t-20">
             Belajar Online USM PKN STAN Pertama, Terbaik & Terlengkap!
           </h1>
           <h2 class="subtitle m-t-10 p-l-50">
@@ -21,7 +22,7 @@
               <li>Daftar sekarang, dan coba materi gratisnya</li>
             </ul>
           </h2>
-          <a href="#" class="button is-primary is-large is-link">Mulai Belajar</a>
+          <a href="#" class="button is-primary is-medium is-success">Mulai Belajar</a>
         </div>
 
         <div class="column is-6">
@@ -69,7 +70,7 @@
         <br><br>Undang Temanmu Melalui Email</h1>
 
         <div class="field column is-three-fifths is-offset-one-fifth">
-          <p class="control has-icons-left has-icons-right">
+          <p class="control has-icons-left">
             <input class="input" type="email" placeholder="Email">
             <span class="icon is-left">
               <i class="fa fa-envelope fa-lg"></i>
@@ -82,11 +83,12 @@
         <h1 class="title is-size-5 is-size-6-mobile has-text-white">Lebih Banyak Cara untuk Mengundang Temanmu</h2>
 
         <div class="field column is-three-fifths is-offset-one-fifth">
-          <p class="control has-icons-left has-icons-right">
-            <input class="input" type="email" placeholder="Email">
+          <p class="control has-icons-left">
+            <input class="input" type="text" value="Sofyanlabs.tk" id="myInput">
             <span class="icon is-left">
               <i class="fa fa-envelope fa-lg"></i>
             </span>
+            <button class="button is-success copyText" onclick="copyText()">Copy Email</button>
           </p>
         </div>
       </div>
@@ -334,4 +336,15 @@
     </div>
   </div>
 </section>
+@endsection
+
+@section('js')
+<script>
+function copyText() {
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  document.execCommand("Copy");
+  alert("Berhasil Tercopy : " + copyText.value);
+}
+</script>
 @endsection
