@@ -3,12 +3,12 @@
 @section('content')
 
 <!-- Hero / Header -->
-<section class="hero is-medium is-success is-bold">
+<section class="hero is-medium is-primary is-bold">
   <div class="hero-body">
     <div class="container">
       <div class="columns">
 
-        <div class="column is-6 m-t-30">
+        <div class="column is-6">
           <h1 class="title">
             Belajar Persiapan Ujian Masuk PKN STAN dengan
             Materi yang Lengkap, dan Pengajarnya Ahli di Bidangnya! #BelajarJadiLuarBiasa
@@ -19,7 +19,7 @@
             dengan pembahasan yang lengkap. Pengajarnya menyenangkan dan
             penjelasan materinya mudah dipahami.
           </h2>
-          <a href="#" class="button is-primary is-large is-primary">Mulai Belajar</a>
+          <a href="#" class="button is-success is-large">Mulai Belajar</a>
         </div>
 
         <div class="column is-6">

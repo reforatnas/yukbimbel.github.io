@@ -13,7 +13,7 @@
           <h1 class="title m-t-20">
             Belajar Online USM PKN STAN Pertama, Terbaik & Terlengkap!
           </h1>
-          <h2 class="subtitle m-t-10 p-l-50">
+          <h2 class="subtitle m-t-10 p-l-50 p-b-10">
             <ul>
               <li>Solusi belajar online persiapan USM PKN STAN</li>
               <li>Dirancang khusus oleh pengajar terbaik & berpengalaman</li>
@@ -39,14 +39,14 @@
   <div class="container">
     <div class="columns is-variable is-8">
 
-      <div class="column is-6">
+      <div class="column is-6 is-hidden-mobile">
         <figure class="image is-3by2">
           <img src="{{asset ('img/cewe-2.svg') }}" alt="Karakter Wanita Yukbimbel Versi 2">
         </figure>
       </div>
 
       <div class="content column is-6">
-        <h1 class="tittle has-text-weight-bold">Belajar Online USM PKN STAN Kekinian!</h1>
+        <h1 class="tittle has-text-weight-bold has-text-centered-touch">Belajar Online USM PKN STAN Kekinian!</h1>
         <h2 class="subttitle is-size-5">Yukbimbel merupakan solusi dan jawaban terbaik bagi kamu yang
                               ingin masuk PKN STAN. Konten yang tersedia dirancang khusus oleh
                               pengajar terbaik dan berpengalaman. Mulai dari nonton video,
@@ -102,8 +102,8 @@
       <div class="column is-6">
         <h1 class="title is-3 has-text-weight-bold">Yukbelajar.</h1>
         <hr style="border:2px solid #0a0a0a; width:100px;">
-        <h2 class="subtitle is-5">
-          Belajar Persiapan Ujian Masuk PKN STAN Jadi Mudah!
+        <h2 class="subtitle is-5 p-b-30">
+          <b>Belajar Persiapan Ujian Masuk PKN STAN Jadi Mudah!</b>
           Video belajar yang mudah dipahami, latihan soal prediksi, modul pembelajaran,
           modul cara cepat, dan ribuan latihan soal yang siap bantu kamu untuk dapat
           mewujudkan mimpi kamu berkuliah di PKN STAN. <b>#BelajarJadiLuarBiasa</b>
@@ -126,8 +126,8 @@
       <div class="column is-6">
         <h1 class="title is-3 has-text-weight-bold has-text-white">Yukbahassoal.</h1>
         <hr style="border:2px solid #fff; width:100px;">
-        <h2 class="subtitle is-5 has-text-white">
-          Belajar Soal-Soal Ujian Masuk PKN STAN dari Laptop Maupun Smartphone Kamu!
+        <h2 class="subtitle is-5 has-text-white p-b-30">
+          <b>Belajar Soal-Soal Ujian Masuk PKN STAN dari Laptop Maupun Smartphone Kamu!</b>
           Ngerjain soal-soal Ujian Masuk PKN STAN nggak perlu bingung lagi.
           Kamu bisa belajar soal-soal Ujian Masuk PKN STAN kapanpun
           dan dimanapun. Kamu juga bisa melihat pembahasan soalnya
@@ -145,8 +145,8 @@
       <div class="column is-6">
         <h1 class="title is-3 has-text-weight-bold">Yuktryout.</h1>
         <hr style="border:2px solid #0a0a0a; width:100px;">
-        <h2 class="subtitle is-5">
-          Uji persiapan kamu dalam menghadapi tes tertulis Ujian Masuk PKN STAN
+        <h2 class="subtitle is-5 p-b-30">
+          <b>Uji persiapan kamu dalam menghadapi tes tertulis Ujian Masuk PKN STAN</b>
           dengan mengikuti tryout berbasis online. Kamu juga bisa mendapatkan
           pembahasan soalnya serta analisis kemampuanmu dalam mengerjakan
           soal-soal Ujian Masuk PKN STAN. <b>#SiapMasukPKNSTAN</b>
@@ -160,21 +160,72 @@
   </div>
 </section>
 
-<section class="section section-blue">
+<section class="section section-feature-grey-accent">
   <div class="container">
     <div class="columns has-text-centered ">
       <div class="column is-12 is-mobile">
-        <h1 class="title is-size-4 is-size-6-mobile has-text-white">Cek Serunya Belajar Persiapan Ujian Masuk PKN STAN di Yukbimbel! <br>
+        <h1 class="title is-size-4 is-size-6-mobile has-text-black">Cek Serunya Belajar Persiapan Ujian Masuk PKN STAN di Yukbimbel! <br>
           Lulus Ujian Masuk PKN STAN, masuk jurusan impian di PKN STAN, dan raih karir impianmu!
         </h1>
-        <div class="video-container">
-          <iframe width="500" height="678" src="https://www.youtube.com/embed/8cB_L5p5dgw?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-        <br><br>
-        <a href="#" class="button is-danger is-medium is-link is-rounded">Langganan Sekarang</a>
       </div>
     </div>
   </div>
+</section>
+
+<section class="section section-blue">
+  <div class="columns p-b-50 p-t-30">
+    <div class="column">
+      <div class="box">
+        <figure class="image is-64x64 is-pulled-left m-r-10">
+          <img src="https://bulma.io/images/placeholders/128x128.png">
+        </figure>
+        <div class="has-text-left">
+          <h1 class="is-size-5">Ahmad Sofyan</h1>
+          <h2 class="is-size-7">Bahasa Indonesia</h2>
+        </div>
+        <br>
+        <figure class="image is-2by1 ">
+          <img src="https://bulma.io/images/placeholders/128x128.png">
+        </figure>
+      </div>
+    </div>
+    <div class="column">
+      <div class="box">
+        <figure class="image is-64x64 is-pulled-left m-r-10">
+          <img src="https://bulma.io/images/placeholders/128x128.png">
+        </figure>
+        <div class="has-text-left">
+          <h1 class="is-size-5">Ahmad Sofyan</h1>
+          <h2 class="is-size-7">Bahasa Indonesia</h2>
+        </div>
+        <br>
+        <figure class="image is-2by1 ">
+          <img src="https://bulma.io/images/placeholders/128x128.png">
+        </figure>
+      </div>
+    </div>
+    <div class="column">
+      <div class="box">
+        <figure class="image is-64x64 is-pulled-left m-r-10">
+          <img src="https://bulma.io/images/placeholders/128x128.png">
+        </figure>
+        <div class="has-text-left">
+          <h1 class="is-size-5">Ahmad Sofyan</h1>
+          <h2 class="is-size-7">Bahasa Indonesia</h2>
+        </div>
+        <br>
+        <figure class="image is-2by1 ">
+          <img src="https://bulma.io/images/placeholders/128x128.png">
+        </figure>
+      </div>
+    </div>
+  </div>
+
+    <div class="columns">
+      <div class="column is-12 has-text-centered">
+        <a href="#" class="button is-danger is-medium is-link is-rounded">Langganan Sekarang</a>
+      </div>
+    </div>
 </section>
 
 <section class="section section-feature-grey-accent">
